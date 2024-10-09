@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../App.css";
-import bgVideo from "../Assets/jesus.mp4";
+import bgVideo from "../Assets/sample.mp4";
 import logo from "../Assets/logo.png";
 import youngPartnerImage from "../Assets/yp.jpg";
 import familyBlessingImage from "../Assets/fbp.jpg";
