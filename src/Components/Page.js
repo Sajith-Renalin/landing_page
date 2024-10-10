@@ -71,7 +71,7 @@ const App = () => {
         className="cta-section"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1.2 }}
+        transition={{ delay: 1, duration: 1.2 }}
       >
         <motion.button
           whileHover={{ scale: 1.1 }}
