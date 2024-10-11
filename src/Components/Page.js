@@ -408,9 +408,9 @@ const App = () => {
     </motion.div>
   </motion.div>
       {/* Footer Section */}
-      <footer className="footer">
+      {/* <footer className="footer">
         <p>© 2024 Jesus Calls Ministries. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
