@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/landing_page/static/css/main.aa573b6f.css",
-    "main.js": "/landing_page/static/js/main.7eec1819.js",
+    "main.css": "/landing_page/static/css/main.70ac4773.css",
+    "main.js": "/landing_page/static/js/main.93b8382b.js",
     "static/js/453.7ee4257d.chunk.js": "/landing_page/static/js/453.7ee4257d.chunk.js",
-    "static/media/jesus.mp4": "/landing_page/static/media/jesus.ea25b02529a01cffc2e7.mp4",
+    "static/media/cut.mp4": "/landing_page/static/media/cut.39020564f3cf026f1d92.mp4",
     "static/media/yp.jpg": "/landing_page/static/media/yp.94ece1c9c7eb565eab95.jpg",
     "static/media/bbp.jpg": "/landing_page/static/media/bbp.b8c8f751d8b34095b4e8.jpg",
+    "static/media/pro1.png": "/landing_page/static/media/pro1.f8cef51ef8ca033a47c3.png",
     "static/media/tvc.jpg": "/landing_page/static/media/tvc.1415781c8427f1eb049e.jpg",
     "static/media/fbp.jpg": "/landing_page/static/media/fbp.cfe261e6e25425e5bb59.jpg",
     "static/media/jbp.jpg": "/landing_page/static/media/jbp.b85baaffcda9943fe6bd.jpg",
+    "static/media/magazine4.png": "/landing_page/static/media/magazine4.4290664f5036446a56d1.png",
+    "static/media/magazine6.png": "/landing_page/static/media/magazine6.2cfa7ae9e3bf71da27f7.png",
+    "static/media/magazine2.png": "/landing_page/static/media/magazine2.312b6f03d8b7ca34add1.png",
+    "static/media/magazine1.png": "/landing_page/static/media/magazine1.8126832874c5dc35622a.png",
+    "static/media/pdf-icon.png": "/landing_page/static/media/pdf-icon.8126832874c5dc35622a.png",
+    "static/media/magazine5.png": "/landing_page/static/media/magazine5.05b2600a3aa3a06ff346.png",
+    "static/media/magazine3.png": "/landing_page/static/media/magazine3.2041cc88874f4ce2ac2c.png",
+    "static/media/pro2.jpeg": "/landing_page/static/media/pro2.5ffaff867f96dfcf9119.jpeg",
     "index.html": "/landing_page/index.html",
-    "main.aa573b6f.css.map": "/landing_page/static/css/main.aa573b6f.css.map",
-    "main.7eec1819.js.map": "/landing_page/static/js/main.7eec1819.js.map",
+    "main.70ac4773.css.map": "/landing_page/static/css/main.70ac4773.css.map",
+    "main.93b8382b.js.map": "/landing_page/static/js/main.93b8382b.js.map",
     "453.7ee4257d.chunk.js.map": "/landing_page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa573b6f.css",
-    "static/js/main.7eec1819.js"
+    "static/css/main.70ac4773.css",
+    "static/js/main.93b8382b.js"
   ]
 }
