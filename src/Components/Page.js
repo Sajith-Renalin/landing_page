@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../App.css";
-import bgVideo from "../Assets/sample.mp4";
+import bgVideo from "../Assets/cut.mp4";
 import logo from "../Assets/logo.png";
 import youngPartnerImage from "../Assets/yp.jpg";
 import familyBlessingImage from "../Assets/fbp.jpg";
@@ -397,10 +397,11 @@ const App = () => {
     <motion.div className="magazine-grid">
       {magazines.map((mag, index) => (
         <motion.div key={index} className="magazine-item" variants={itemVariants}>
-          <img src={mag.imgSrc} alt={`Magazine ${index + 1}`} className="magazine-cover" />
           <a href={mag.link} target="_blank" rel="noopener noreferrer" className="magazine-link">
-            <img src={pdfIcon} alt="PDF Icon" className="pdf-icon" />
-            <span>Click to Read</span>
+          <img src={mag.imgSrc} alt={`Magazine ${index + 1}`} className="magazine-cover" />
+
+            {/* <img src={pdfIcon} alt="PDF Icon" className="pdf-icon" />
+            <span>Click to Read</span> */}
           </a>
         </motion.div>
       ))}
