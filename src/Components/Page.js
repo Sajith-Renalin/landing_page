@@ -8,7 +8,10 @@ import familyBlessingImage from "../Assets/fbp.jpg";
 import businessBlessingImage from "../Assets/bbp.jpg";
 import demo1 from "../Assets/jbp.jpg";
 import demo2 from "../Assets/tvc.jpg";
+import pro1 from "../Assets/pro1.png"
+import pro2 from "../Assets/pro2.jpeg"
 // import graphic from "../Assets/graphic.jpeg";  // Add a decorative graphic
+
 
 const Header = () => {
   return (
@@ -81,6 +84,95 @@ const App = () => {
           Donate Now
         </motion.button>
       </motion.div>
+      <motion.div
+  className="promise-section"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 1.5, delay: 0.5 }}
+>
+  <motion.div
+    className="promise-container"
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+
+  >
+    {/* Today's Promise */}
+    <motion.div
+      className="promise-card"
+      whileHover={{ scale: 1.05, transition: { duration: 0.3 } }} // Hover effect
+      initial={{ x: -100, opacity: 0 }} // Slide in from the left
+      animate={{ x: 0, opacity: 1 }} // Animate to original position
+      transition={{ delay: 0.2, duration: 0.6 }} // Delay for a smooth entrance
+    >
+      <h3>Today's Promise</h3>
+      <motion.img
+        src={pro1}
+        alt="Today's Promise"
+        className="promise-image"
+        whileHover={{ scale: 1.1 }} // Slight zoom-in on hover for image
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.2, delay: 0.5 }}
+      />
+      <motion.p
+        className="promise-text"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 1.2 }}
+      >
+        When others fail you, trust that God remains your steadfast confidence, standing by you as you honor Him and live by His principles.
+      </motion.p>
+      <motion.div className="promise-actions">
+        <motion.button
+          className="action-button"
+          whileHover={{ scale: 1.1 }} // Hover animation for button
+          whileTap={{ scale: 0.95 }} // Button tap animation
+          transition={{ duration: 0.3 }}
+        >
+          Read More & Watch
+        </motion.button>
+      </motion.div>
+    </motion.div>
+
+    {/* Monthly Promise */}
+    <motion.div
+      className="promise-card"
+      whileHover={{ scale: 1.05, transition: { duration: 0.3 } }} // Hover effect
+      initial={{ x: 100, opacity: 0 }} // Slide in from the right
+      animate={{ x: 0, opacity: 1 }} // Animate to original position
+      transition={{ delay: 0.4, duration: 0.6 }} // Delay for a smooth entrance
+    >
+      <h3>Monthly Promise</h3>
+      <motion.img
+        src={pro2}
+        alt="Monthly Promise"
+        className="promise-image"
+        whileHover={{ scale: 1.1 }} // Slight zoom-in on hover for image
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.2, delay: 0.7 }}
+      />
+      <motion.p
+        className="promise-text"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.2, duration: 1.2 }}
+      >
+        God is going to raise you up to great heights and display His power in your life so that His name might be glorified before all.
+      </motion.p>
+      <motion.div className="promise-actions">
+        <motion.button
+          className="action-button"
+          whileHover={{ scale: 1.1}} // Hover animation for button
+          whileTap={{ scale: 0.95 }} // Button tap animation
+          transition={{ duration: 0.3 }}
+        >
+          Read More & Watch
+        </motion.button>
+      </motion.div>
+    </motion.div>
+  </motion.div>
+</motion.div>
 
       {/* Features Section (Blessing Plans in Motion) */}
       <motion.div
@@ -247,7 +339,7 @@ const App = () => {
             whileHover={{ scale: 1.05, boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)" }}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.4 }}
             className="testimonial-box"
           >
             <p className="para">
@@ -260,7 +352,7 @@ const App = () => {
             whileHover={{ scale: 1.05, boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)" }}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 0.4 }}
             className="testimonial-box"
           >
             <p className="para">

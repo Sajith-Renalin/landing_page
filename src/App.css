@@ -255,3 +255,59 @@ body {
   color: #6e2061;
   text-align: justify;
 }
+.promise-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.promise-container {
+  display: flex;
+  gap: 20px;
+}
+
+.promise-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.promise-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #6e2061;
+}
+
+.promise-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.promise-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.promise-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-button {
+  background-color: #6e2061;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.action-button:hover {
+  background-color: #6e2061;
+}
