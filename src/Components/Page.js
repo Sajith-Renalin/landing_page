@@ -10,6 +10,13 @@ import demo1 from "../Assets/jbp.jpg";
 import demo2 from "../Assets/tvc.jpg";
 import pro1 from "../Assets/pro1.png"
 import pro2 from "../Assets/pro2.jpeg"
+import magazine1 from '../Assets/magazine1.png'; // Sample image paths
+import magazine2 from '../Assets/magazine2.png'; 
+import magazine3 from '../Assets/magazine3.png'; 
+import magazine4 from '../Assets/magazine4.png'; 
+import magazine5 from '../Assets/magazine5.png'; 
+import magazine6 from '../Assets/magazine6.png'; 
+import pdfIcon from '../Assets/pdf-icon.png'; 
 // import graphic from "../Assets/graphic.jpeg";  // Add a decorative graphic
 
 
@@ -32,7 +39,23 @@ const Header = () => {
     </header>
   );
 };
+const magazines = [
+  { imgSrc: magazine1, link: '/magazine1.pdf' },
+  { imgSrc: magazine2, link: '/magazine2.pdf' },
+  { imgSrc: magazine3, link: '/magazine3.pdf' },
+  { imgSrc: magazine4, link: '/magazine4.pdf' },
+  { imgSrc: magazine5, link: '/magazine5.pdf' },
+  { imgSrc: magazine6, link: '/magazine6.pdf' },
+];
+const magazineVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut", staggerChildren: 0.2 } },
+};
 
+const itemVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+};
 const App = () => {
   return (
     <div className="landing-page">
@@ -362,7 +385,27 @@ const App = () => {
           </motion.div>
         </div>
       </motion.div>
-
+      {/* magazine section */}
+      <motion.div
+    className="magazine-section"
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true, amount: 0.2 }}
+    variants={magazineVariants}
+  >
+    <h2 className="magazine-title">eMagazine</h2>
+    <motion.div className="magazine-grid">
+      {magazines.map((mag, index) => (
+        <motion.div key={index} className="magazine-item" variants={itemVariants}>
+          <img src={mag.imgSrc} alt={`Magazine ${index + 1}`} className="magazine-cover" />
+          <a href={mag.link} target="_blank" rel="noopener noreferrer" className="magazine-link">
+            <img src={pdfIcon} alt="PDF Icon" className="pdf-icon" />
+            <span>Click to Read</span>
+          </a>
+        </motion.div>
+      ))}
+    </motion.div>
+  </motion.div>
       {/* Footer Section */}
       <footer className="footer">
         <p>© 2024 Jesus Calls Ministries. All rights reserved.</p>
