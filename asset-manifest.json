@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/landing_page/static/css/main.c73273d6.css",
-    "main.js": "/landing_page/static/js/main.c1855dbb.js",
+    "main.css": "/landing_page/static/css/main.85b3e502.css",
+    "main.js": "/landing_page/static/js/main.5cb4a09c.js",
     "static/js/453.7ee4257d.chunk.js": "/landing_page/static/js/453.7ee4257d.chunk.js",
-    "static/media/cut.mp4": "/landing_page/static/media/cut.39020564f3cf026f1d92.mp4",
+    "static/media/cut1.mp4": "/landing_page/static/media/cut1.41deebbdcc8a3fd547c2.mp4",
     "static/media/yp.jpg": "/landing_page/static/media/yp.94ece1c9c7eb565eab95.jpg",
     "static/media/bbp.jpg": "/landing_page/static/media/bbp.b8c8f751d8b34095b4e8.jpg",
     "static/media/pro1.png": "/landing_page/static/media/pro1.f8cef51ef8ca033a47c3.png",
     "static/media/tvc.jpg": "/landing_page/static/media/tvc.1415781c8427f1eb049e.jpg",
     "static/media/fbp.jpg": "/landing_page/static/media/fbp.cfe261e6e25425e5bb59.jpg",
+    "static/media/church.jpg": "/landing_page/static/media/church.dec866cf0da6dda182f4.jpg",
     "static/media/jbp.jpg": "/landing_page/static/media/jbp.b85baaffcda9943fe6bd.jpg",
     "static/media/magazine4.png": "/landing_page/static/media/magazine4.4290664f5036446a56d1.png",
     "static/media/magazine6.png": "/landing_page/static/media/magazine6.2cfa7ae9e3bf71da27f7.png",
@@ -19,12 +20,12 @@
     "static/media/magazine3.png": "/landing_page/static/media/magazine3.2041cc88874f4ce2ac2c.png",
     "static/media/pro2.jpeg": "/landing_page/static/media/pro2.5ffaff867f96dfcf9119.jpeg",
     "index.html": "/landing_page/index.html",
-    "main.c73273d6.css.map": "/landing_page/static/css/main.c73273d6.css.map",
-    "main.c1855dbb.js.map": "/landing_page/static/js/main.c1855dbb.js.map",
+    "main.85b3e502.css.map": "/landing_page/static/css/main.85b3e502.css.map",
+    "main.5cb4a09c.js.map": "/landing_page/static/js/main.5cb4a09c.js.map",
     "453.7ee4257d.chunk.js.map": "/landing_page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c73273d6.css",
-    "static/js/main.c1855dbb.js"
+    "static/css/main.85b3e502.css",
+    "static/js/main.5cb4a09c.js"
   ]
 }
