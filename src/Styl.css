@@ -75,6 +75,7 @@
   
   /* Plans list layout */
   .plans-list {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 20px;
