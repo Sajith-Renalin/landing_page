@@ -1,13 +1,16 @@
 import './App.css';
 import Page from "./Components/Page";
-import Footer from "./Components/Footer";
-import { div } from 'framer-motion/client';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import BlessingPlans from './Components/Blessingplans';
+
 function App() {
   return (
-    <div>
-     <Page />
-     <Footer />
-     </div>
+    <Router>
+        <Routes>
+        <Route path="/landing_page" element={<Page />} />
+          <Route path="/blessing-plans" element={<BlessingPlans />} />
+        </Routes>
+    </Router>
   );
 }
 

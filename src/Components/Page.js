@@ -1,7 +1,8 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import { motion } from "framer-motion";
 import "../App.css";
-import bgVideo from "../Assets/cut.mp4";
+import bgVideo from "../Assets/cut1.mp4";
 import logo from "../Assets/logo.png";
 import youngPartnerImage from "../Assets/yp.jpg";
 import familyBlessingImage from "../Assets/fbp.jpg";
@@ -17,10 +18,12 @@ import magazine4 from '../Assets/magazine4.png';
 import magazine5 from '../Assets/magazine5.png'; 
 import magazine6 from '../Assets/magazine6.png'; 
 import pdfIcon from '../Assets/pdf-icon.png'; 
+import '../Footer.css';
 // import graphic from "../Assets/graphic.jpeg";  // Add a decorative graphic
 
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <header className="header">
       <div className="logo">
@@ -29,7 +32,7 @@ const Header = () => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item">About</li>
-          <li className="nav-item">Blessing Plans</li>
+          <li className="nav-item" onClick={() => navigate("/blessing-plans")}>Blessing Plans</li>
           <li className="nav-item">Prayer Towers</li>
           <li className="nav-item">Job Opportunities</li>
           <li className="nav-item">Contact</li>
@@ -39,6 +42,7 @@ const Header = () => {
     </header>
   );
 };
+
 const magazines = [
   { imgSrc: magazine1, link: '/magazine1.pdf' },
   { imgSrc: magazine2, link: '/magazine2.pdf' },
@@ -407,6 +411,27 @@ const App = () => {
       ))}
     </motion.div>
   </motion.div>
+  <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-left">
+          <img src={logo} alt="logo" className="logo-image" />
+          <p>
+            Jesus Calls is a global ministry founded by Late Brother D.G.S. Dhinakaran and led by Dr. Paul Dhinakaran. Jesus Calls serves to bring comfort and healing to the broken-hearted without distinction through prayer offered all 24/7 throughout the year.
+          </p>
+        </div>
+        <div className="footer-right">
+          <h2>Want to know more?</h2>
+          <p>24*7 Prayers</p>
+          <p><strong>Phone:</strong> 8546999000</p>
+          <p><strong>For Queries, Call:</strong> 0442345677</p>
+        </div>
+        <div className="footer-right">
+          <h2>Contact Details</h2>
+          <p><strong>Address:</strong> Jesus Calls, 16, Dr. D.G.S Dhinakaran Road, R.A.Puram, Chennai - 600 028.</p>
+          <p><strong>Email:</strong> admin@jesuscalls.org</p>
+        </div>
+      </div>
+    </footer>
       {/* Footer Section */}
       {/* <footer className="footer">
         <p>© 2024 Jesus Calls Ministries. All rights reserved.</p>
