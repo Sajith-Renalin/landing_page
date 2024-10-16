@@ -1,0 +1,69 @@
+/* Plan Detail Page Container */
+  .plan-detail-page {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  /* Plan Title Styling */
+  .plan-detail-page h1 {
+    font-size: 2.5rem;
+    color: #5c2d79; /* Matching the purple color of the text */
+    margin-bottom: 20px;
+  }
+  
+  /* Plan Image Styling */
+  .plan-detail-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Specific Text Styling for Keywords */
+  .plan-detail-page p:last-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Button Styling */
+  .read-more-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: #45a049;
+  }
+  
+  .navigate-button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigate-button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Logo Styling */
+  .logo-image {
+    width: 150px;
+    height: auto;
+  }
+  
+

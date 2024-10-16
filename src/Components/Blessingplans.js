@@ -80,9 +80,11 @@ const PlanCard = ({ id, imageSrc, title, description }) => {
       <div className="plan-details">
         <h3 className="plan-title">{title}</h3>
         <p className="plan-description">{description}</p>
+        <Link to={`/plan/${id}`}>
         <button className="read-more-button">Read More</button>
+        </Link>
       </div>
-      <Link to="/trilochan">
+      
         <motion.button
           className="navigate-button"
           whileHover={{ scale: 1.1 }}
@@ -90,7 +92,6 @@ const PlanCard = ({ id, imageSrc, title, description }) => {
         >
           Back
         </motion.button>
-      </Link>
     </div>
   );
 };
