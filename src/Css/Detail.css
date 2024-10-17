@@ -1,4 +1,3 @@
-/* Plan Detail Page Container */
 .header {
   width: 100%;
   position: fixed;
@@ -40,14 +39,12 @@
     padding: 40px 20px;
   }
   
-  /* Plan Title Styling */
   .plan-detail-page h1 {
     font-size: 2.5rem;
-    color: #5c2d79; /* Matching the purple color of the text */
+    color: #5c2d79; 
     margin-bottom: 20px;
   }
   
-  /* Plan Image Styling */
   .plan-detail-image {
     width: 250px;
     height: 250px;
@@ -55,9 +52,7 @@
     object-fit: cover;
     margin-bottom: 20px;
   }
-  
-  /* Specific Text Styling for Keywords */
-  .plan-detail-page p:last-child {
+    .plan-detail-page p:last-child {
     font-size: 1.5rem;
     font-weight: bold;
     color: #333;
@@ -65,7 +60,6 @@
     margin-bottom: 40px;
   }
   
-  /* Button Styling */
   .read-more-button {
     background-color: #4caf50;
     color: white;
@@ -96,7 +90,6 @@
     background-color: #ddd;
   }
   
-  /* Logo Styling */
   .logo-image {
     width: 150px;
     height: auto;
