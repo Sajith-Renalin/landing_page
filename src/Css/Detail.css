@@ -1,4 +1,40 @@
 /* Plan Detail Page Container */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #6E2061;
+  z-index: 1000;
+  border-bottom: 5px solid white;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  margin-right: 100px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-item {
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
   .plan-detail-page {
     text-align: center;
     padding: 40px 20px;
