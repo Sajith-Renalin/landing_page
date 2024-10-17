@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import '../Detail.css'; // Import CSS for styling
+import '../Css/Detail.css'; // Import CSS for styling
 import youngPartnerImage from '../Assets/yp.jpg';
 import familyBlessingImage from '../Assets/fbp.jpg';
 import businessBlessingImage from '../Assets/bbp.jpg';

@@ -1,4 +1,4 @@
-import './App.css';
+import './Css/App.css';
 import Page from "./Components/Page";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BlessingPlans from './Components/Blessingplans';

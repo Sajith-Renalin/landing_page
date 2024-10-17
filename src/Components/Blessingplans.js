@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import '../Styl.css'; // Import the CSS file
-import "../App.css";
+import '../Css/Styl.css'; // Import the CSS file
+import "../Css/App.css";
 import youngPartnerImage from '../Assets/yp.jpg';
 import familyBlessingImage from '../Assets/fbp.jpg';
 import businessBlessingImage from '../Assets/bbp.jpg';

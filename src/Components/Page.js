@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 import { motion } from "framer-motion";
-import "../App.css";
+import "../Css/App.css";
 import bgVideo from "../Assets/cut1.mp4";
 import logo from "../Assets/logo.png";
 import youngPartnerImage from "../Assets/yp.jpg";
@@ -18,7 +18,7 @@ import magazine4 from '../Assets/magazine4.png';
 import magazine5 from '../Assets/magazine5.png'; 
 import magazine6 from '../Assets/magazine6.png'; 
 import pdfIcon from '../Assets/pdf-icon.png'; 
-import '../Footer.css';
+import '../Css/Footer.css';
 // import graphic from "../Assets/graphic.jpeg";  // Add a decorative graphic
 
 
