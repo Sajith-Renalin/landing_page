@@ -2,13 +2,14 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "../Css/Detail.css";
 import "../Css/Footer.css";
-import logo from "../Assets/logo.png";
-import youngPartnerImage from "../Assets/yp.jpg";
-import familyBlessingImage from "../Assets/fbp.jpg";
-import businessBlessingImage from "../Assets/bbp.jpg";
-import tvClubImage from "../Assets/tvc.jpg";
-import jobBlessingImage from "../Assets/jbp.jpg";
-import magazineMinistryImage from "../Assets/church.jpg";
+
+const logo = `${process.env.PUBLIC_URL}/logo.png`;
+const youngPartnerImage = `${process.env.PUBLIC_URL}/yp.jpg`;
+const familyBlessingImage = `${process.env.PUBLIC_URL}/fbp.jpg`;
+const businessBlessingImage = `${process.env.PUBLIC_URL}/bbp.jpg`;
+const tvClubImage = `${process.env.PUBLIC_URL}/tvc.jpg`;
+const jobBlessingImage = `${process.env.PUBLIC_URL}/jbp.jpg`;
+const magazineMinistryImage = `${process.env.PUBLIC_URL}/church.jpg`;
 const planDetails = [
   {
     id: 1,

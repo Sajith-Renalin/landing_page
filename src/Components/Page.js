@@ -2,24 +2,26 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../Css/App.css";
-import bgVideo from "../Assets/cut1.mp4";
-import logo from "../Assets/logo.png";
-import youngPartnerImage from "../Assets/yp.jpg";
-import familyBlessingImage from "../Assets/fbp.jpg";
-import businessBlessingImage from "../Assets/bbp.jpg";
-import demo1 from "../Assets/jbp.jpg";
-import demo2 from "../Assets/tvc.jpg";
-import pro1 from "../Assets/pro1.png";
-import pro2 from "../Assets/pro2.jpeg";
-import magazine1 from "../Assets/magazine1.png"; 
-import magazine2 from "../Assets/magazine2.png";
-import magazine3 from "../Assets/magazine3.png";
-import magazine4 from "../Assets/magazine4.png";
-import magazine5 from "../Assets/magazine5.png";
-import magazine6 from "../Assets/magazine6.png";
-import pdfIcon from "../Assets/pdf-icon.png";
 import "../Css/Footer.css";
-// import graphic from "../Assets/graphic.jpeg";  // Add a decorative graphic
+
+const bgVideo = `${process.env.PUBLIC_URL}/cut1.mp4`;
+const logo = `${process.env.PUBLIC_URL}/logo.png`;
+const youngPartnerImage = `${process.env.PUBLIC_URL}/yp.jpg`;
+const familyBlessingImage = `${process.env.PUBLIC_URL}/fbp.jpg`;
+const businessBlessingImage = `${process.env.PUBLIC_URL}/bbp.jpg`;
+const demo1 = `${process.env.PUBLIC_URL}/jbp.jpg`;
+const demo2 = `${process.env.PUBLIC_URL}/tvc.jpg`;
+const pro1 = `${process.env.PUBLIC_URL}/pro1.png`;
+const pro2 = `${process.env.PUBLIC_URL}/pro2.jpeg`;
+const pdfIcon = `${process.env.PUBLIC_URL}/pdf-icon.png`;
+
+const magazine1 = `${process.env.PUBLIC_URL}/magazine1.png`;
+const magazine2 = `${process.env.PUBLIC_URL}/magazine2.png`;
+const magazine3 = `${process.env.PUBLIC_URL}/magazine3.png`;
+const magazine4 = `${process.env.PUBLIC_URL}/magazine4.png`;
+const magazine5 = `${process.env.PUBLIC_URL}/magazine5.png`;
+const magazine6 = `${process.env.PUBLIC_URL}/magazine6.png`;
+
 
 const Header = () => {
   const navigate = useNavigate();

@@ -1,5 +1,5 @@
-import logo from "../Assets/logo.png";
 import '../Css/Footer.css';
+const logo = `${process.env.PUBLIC_URL}/logo.png`
 
 const Footer = () => {
   return (

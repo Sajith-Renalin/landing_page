@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../Css/Styl.css";
-import youngPartnerImage from "../Assets/yp.jpg";
-import familyBlessingImage from "../Assets/fbp.jpg";
-import businessBlessingImage from "../Assets/bbp.jpg";
-import tvClubImage from "../Assets/tvc.jpg";
-import jobBlessingImage from "../Assets/jbp.jpg";
-import magazineMinistryImage from "../Assets/church.jpg";
-import logo from "../Assets/logo.png";
+const logo = `${process.env.PUBLIC_URL}/logo.png`
+const magazineMinistryImage = `${process.env.PUBLIC_URL}/church.jpg`
+const jobBlessingImage = `${process.env.PUBLIC_URL}/jbp.jpg`
+const tvClubImage = `${process.env.PUBLIC_URL}/tvc.jpg`
+const businessBlessingImage = `${process.env.PUBLIC_URL}/bbp.jpg`
+const familyBlessingImage = `${process.env.PUBLIC_URL}/fbp.jpg`
+const youngPartnerImage = `${process.env.PUBLIC_URL}/yp.jpg`
 
 const plans = [
   {
